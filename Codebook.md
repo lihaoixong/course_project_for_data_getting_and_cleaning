@@ -1,6 +1,7 @@
 #Code book for dateset_1 and data_set_2
 #dataset_1
 ## 10299 rows, 79 columns
+## Each column is either standard deviation or mean of a measurement from the smartphone sensor. 
 ## variable:
   1 "tBodyAcc-std()-X"                
   2 "tBodyAcc-std()-Y"               
@@ -82,7 +83,8 @@
   78 "fBodyBodyGyroJerkMag-mean()"    
   79 "fBodyBodyGyroJerkMag-meanFreq()"
 # dataset_2
-##30 columns, 6 rows
+## 30 columns, 6 rows
+## each row contains the mean of each variable
 ## row: 
      1 "LAYING"
      2 "SITTING"
