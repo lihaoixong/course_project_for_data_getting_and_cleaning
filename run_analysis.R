@@ -28,5 +28,5 @@ run_analysis <-function() {
     subject <- subject_merge$V1
 
     dataset_average_by_subject_n_activity<-by (dataset_m_sd_only[,1],list(activity = activity_lable,subject = subject),mean) ## step 5
-   dataset_average_by_subject_n_activity ## the new data set
+   return (list (dataset_1 = dataset_m_sd_only,dataset_2= dataset_average_by_subject_n_activity))
 }
