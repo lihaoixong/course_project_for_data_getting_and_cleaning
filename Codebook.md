@@ -83,12 +83,14 @@
   78 "fBodyBodyGyroJerkMag-mean()"    
   79 "fBodyBodyGyroJerkMag-meanFreq()"
 # dataset_2
-## 30 columns, 6 rows
-## each row contains the mean of each variable
-## row: 
+## 79 columns,180 rows
+## each column contain the average of a variable in dataset 1 by for each activity and for each subject.
+## : 180 rows are divided into 6 parts, there are 30 rows in each part. Each part include the averages for each activity.
+     Here are orders for these activities:
      1 "LAYING"
      2 "SITTING"
      3 "STANDING"
      4 "WALKING"
      5 "WALKING_DOWNSTAIRS"
      6 "WALKING_UPSTAIRS"
+## In each part, there are the averages for each subject, 30 subjects in total. 
