@@ -1,4 +1,5 @@
 run_analysis <-function() {
+   ## load original data
     test_x_test <- read.table("~/Coursera/HARDataset/UCI HAR Dataset/test/X_test.txt")
     train_x_train <- read.table("~/Coursera/HARDataset/UCI HAR Dataset/train/X_train.txt")
     test_y_test <- read.table("~/Coursera/HARDataset/UCI HAR Dataset/test/Y_test.txt")
@@ -26,7 +27,7 @@ run_analysis <-function() {
    }  ## step 3 
 
     subject <- subject_merge$V1
-
+    ## step 5: 
     dataset_average_by_subject_n_activity <- apply(dataset_m_sd_only,2,by,list(activity = activity_lable,subject = subject),mean) ## step 5
    return (list (dataset_1 = dataset_m_sd_only,dataset_2= dataset_average_by_subject_n_activity))
 }
