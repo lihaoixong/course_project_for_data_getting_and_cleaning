@@ -2,7 +2,7 @@
 #dataset_1
 ## 10299 rows, 79 columns
 ## variable:
-##1 "tBodyAcc-std()-X"                
+  1 "tBodyAcc-std()-X"                
   2 "tBodyAcc-std()-Y"               
   3 "tBodyAcc-std()-Z"                
   4 "tGravityAcc-std()-X"            
@@ -81,10 +81,10 @@
   77 "fBodyBodyGyroMag-meanFreq()"   
   78 "fBodyBodyGyroJerkMag-mean()"    
   79 "fBodyBodyGyroJerkMag-meanFreq()"
- # dataset_2
- ##30 columns, 6 rows
- ## row: 
-  ## 1 "LAYING"
+# dataset_2
+##30 columns, 6 rows
+## row: 
+     1 "LAYING"
      2 "SITTING"
      3 "STANDING"
      4 "WALKING"
